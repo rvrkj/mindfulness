@@ -1,0 +1,45 @@
+<div id="myHeader">
+ 
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/mindfulness.png" alt="RLHP Logo" width="100">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav flex-md-row ml-md-auto">
+        <li class="nav-item active">
+          <a class="nav-link" style="color: #723167;" href="about.html">MBSR<span class="sr-only">(current)</span></a>
+        </li>
+       
+
+        <li class="nav-item">
+          <a class="nav-link" style="color: #723167;" href="impact.html">MSC</a>
+        </li>
+
+       
+
+
+
+      </ul>
+    </div>
+  </nav>
+</div>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
