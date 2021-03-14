@@ -138,7 +138,7 @@ text-decoration: underline;
 } */
 
 .thriving-bg{
-  background: url('/images/thrive-bg.png');
+  background: url('images/thrive-bg.png');
   background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -146,7 +146,7 @@ text-decoration: underline;
 } 
 
 .mindfulness-section-img{
-  background: url('/images/mindful-sec-bg.png');
+  background: url('images/mindful-sec-bg.png');
   position: relative;
     background-size: contain;
     background-repeat: no-repeat;
