@@ -31,7 +31,7 @@ a{
 
 .uline{
 text-decoration: underline;
-color: #174457!important;
+
 }
 
 
@@ -94,19 +94,95 @@ color: #174457!important;
  .maroon-color{
    color: #723167;
  }
-.mindful-bcg{
-  background: url('/images/mindfulness-bcg.png');
-  position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto; 
+
+.fixed-size-container {
+  max-width: 940px;
+  margin: 0px auto;
+  padding: 0;
+  display: flex;
+  
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.slider-img{
+
+  .course-card {
+    border: 1px solid #fff;
+    padding: 40px;
+    text-align: center;
+    
+    font-size: 14px;
+    margin-bottom: 10px;
+    height: 200px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0px 10px 30px #93939329;
+}
+
+.maroon-circle{
+  height: 100px;
+  width: 100px;
+  background-color: #723167;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.fixed-size{
+  width: 200px;
+}
+/* .slider-img{
   background: url('/images/slider-img-bg.png');
   position: relative;
     background-size: contain;
     background-repeat: no-repeat;
     height: auto; 
+} */
+
+.thriving-bg{
+  background: url('/images/thrive-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+} 
+
+.mindfulness-section-img{
+  background: url('/images/mindful-sec-bg.png');
+  position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto; 
+}
+
+.three-capsule-sec{
+  background-color: #7398CC29;
+}
+
+.text-brown{
+  color: #FF930F;
+}
+
+.white-card{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #7398CC29;
+  border: 0.5px solid #EDC697;
+  filter: blur(0.2px);
+  opacity: 1;
+  padding: 80px;
+  box-sizing: border-box;
+ 
+  border-radius: 52px;
+}
+
+.bg-light-blue{
+  background-color: #7398CC;
+}
+
+.bg-light-voilet{
+  background-color: #723167;
+}
+
+.bg-light-green{
+  background-color: #5F9E97;
 }
 
 .image-banner img {
@@ -447,6 +523,20 @@ background-color: #da3054;
  
   #rlhpheader .navbar-nav li.nav-item {
     margin: 0px 5px;
+  }
+
+
+}
+
+@media only screen and (min-width: 900px) {
+  
+  .mindful-bcg{
+    background: url('/images/mindfulness-bcg.png');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px 
   }
 
 }
