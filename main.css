@@ -531,7 +531,7 @@ background-color: #da3054;
 @media only screen and (min-width: 900px) {
   
   .mindful-bcg{
-    background: url('/images/mindfulness-bcg.png');
+    background: url('images/mindfulness-bcg.png');
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
