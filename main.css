@@ -104,10 +104,15 @@ text-decoration: underline;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
+button.slick-next{
+  display: none!important;
+}
+button.slick-prev{
+  display: none!important;
+}
   .course-card {
     border: 1px solid #fff;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     
     font-size: 14px;
@@ -129,13 +134,13 @@ text-decoration: underline;
 .fixed-size{
   width: 200px;
 }
-/* .slider-img{
-  background: url('/images/slider-img-bg.png');
+ /* .slider-img{
+  background: url('/images/mindful-slider.svg');
   position: relative;
     background-size: contain;
     background-repeat: no-repeat;
     height: auto; 
-} */
+}  */
 
 .thriving-bg{
   background: url('images/thrive-bg.png');
@@ -146,7 +151,7 @@ text-decoration: underline;
 } 
 
 .mindfulness-section-img{
-  background: url('images/mindful-sec-bg.png');
+  background: url('images/Untitled-1-01.png');
   position: relative;
     background-size: contain;
     background-repeat: no-repeat;
@@ -528,18 +533,28 @@ background-color: #da3054;
 
 }
 
+.navy-blue{
+  color: #171C54;
+}
+
 @media only screen and (min-width: 900px) {
-  
   .mindful-bcg{
-    background: url('images/mindfulness-bcg.png');
+    background: url('images/Untitled-1-01.png');
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 90px 
+    padding: 85px 
   }
 
 }
+
+.uline-brown{
+  border-bottom: 2px solid #F0AF5F;
+  
+}
+
+
 
 @media only screen and (max-width: 1024px) {
  
